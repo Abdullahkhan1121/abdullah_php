@@ -11,7 +11,7 @@
     for($y = 1 ; $y<=10 ; $y++){
         echo "<br> $tablename x $y = " .$tablename*$y;
     }
-    for($e = 0 ; $e <=50 ; $e++){
+    for($e = 0 ; $e <=20 ; $e++){
         for($t = 0 ; $t <$e; $t++){
         echo "🍟";
     }
@@ -33,5 +33,7 @@
         $file++;
     }
     while($file<=93);
+
+
 
 ?>
